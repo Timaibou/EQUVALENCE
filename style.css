@@ -1,0 +1,198 @@
+h1 {
+    text-decoration: underline;
+    color: rgb(10, 30, 71);
+ }
+ body{
+    background-color: rgb(255, 255, 255);
+ }
+ h2{
+    font-size: 25px;
+ }
+ h3{
+    text-decoration: underline;
+    font-size: 20px;
+    color: rgb(10, 30, 71);
+ }
+ h4 {
+    text-decoration: underline;
+    font-size: 20px;
+ }
+ .Bleu_JO{
+    color: rgb(0, 129, 200);
+    font-style: italic;
+    font-size: 20px; /* Spécifie la taille de la police en pixels */
+ 
+ 
+ }
+ .Jaune_JO{
+    color: rgb(252, 177, 49);
+    font-style: italic;
+    font-size: 20px;
+ }
+ .Noir_JO{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 20px;
+ }
+ .Vert_JO{
+    color: rgb(0, 166, 81);
+    font-style: italic;
+    font-size: 20px;
+ }
+ .Rouge_JO{
+    color: rgb(238, 51, 78);
+    font-style: italic;
+    font-size: 20px;
+ }
+ #bouton {
+    background-color: rgb(10, 30, 71); /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Supprimer la bordure */
+    border-radius: 5px; /* Arrondi des coins */
+    cursor: pointer; /* Curseur de la souris */
+  }
+ /*Bleu foncé: rgb(10, 30, 71) */
+ /*Bleu clair: rgb(0, 129, 200) */
+ /*Noir: rgb(0, 0, 0) */
+ /*Rouge: rgb(238, 51, 78) */
+ /*Jaune: rgb(252, 177, 49) */
+ /*Vert: rgb(0, 166, 81) */
+ /*body {  
+    background-image: url('https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2022/03/05/3332026-68120788-2560-1440.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+ }*/
+ .pictogramme {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px; /* Espace entre les images */
+ }
+ .pictogramme img {
+    margin-left: 10px; /* Espacement à gauche de chaque image */
+ }
+ /* Sélectionnez l'élément que vous souhaitez modifier */
+ h1 {
+    /* Utilisez la propriété font-family pour spécifier la police d'écriture */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; /* Spécifie la taille de la police en pixels */
+ }
+ 
+ 
+ h2 {
+   /* Utilisez la propriété font-family pour spécifier la police d'écriture */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ 
+ h3 {
+    font-family: Garamond, serif;
+ }
+ 
+ 
+ hrugby {
+    /* Utilisez la propriété font-family pour spécifier la police d'écriture */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px; /* Spécifie la taille de la police en pixels */
+    text-decoration: underline;
+ }
+ 
+ hrugby2{
+    margin-top:10px;
+  margin-right:5px;
+  margin-bottom:2em;
+  margin-left:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+ }
+ 
+ .rugbyintro{
+   
+       width: 50%; /* Largeur du texte */
+       padding: 50px; /* Espace intérieur */
+       text-align: justify; /* Justification du texte */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .mele{
+    flex: 1;
+    width: 50%; /* Largeur de l'image */
+    max-width: 500px; /* Largeur maximale de l'image */
+ }
+ .container {
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+  }
+ 
+  hrugby3{
+    margin-top:10px;
+  margin-right:5px;
+  margin-bottom:2em;
+  margin-left:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+ }
+ 
+ .reglement{
+   
+       width: 50%; /* Largeur du texte */
+       padding: 50px; /* Espace intérieur */
+       text-align: justify; /* Justification du texte */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+ 
+ }
+ .photo2{
+    flex: 1;
+    width: 50%; /* Largeur de l'image */
+    max-width: 500px; /* Largeur maximale de l'image */
+ }
+ .container2 {
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    justify-content: center; /* Alignement horizontal */
+  }
+
+
+  h4{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center ;
+  }
+
+
+p1 {
+    color: rgb(0, 129, 200);
+}
+p2{
+    color: rgb(252, 177, 49);
+}
+p3{
+    color: rgb(0, 0, 0);
+}
+p4{
+    color: rgb(0, 166, 81);
+}
+p5{
+    color: rgb(238, 51, 78);
+}
+
+.terrain_basket{
+        position: absolute; /* Positionne l'image de façon absolue par rapport à son conteneur */
+        top: 300px; /* Déplace l'image de 50 pixels vers le bas par rapport au bord supérieur du conteneur */
+        right: 30px; /* Déplace l'image de 50 pixels vers la droite par rapport au bord gauche du conteneur */
+        flex: 1;
+        width: 30%; /* Largeur de l'image */
+        max-width: 400px; /* Largeur maximale de l'image */
+ }
+
+ .terrain_basket{
+    flex: 1;
+    width: 50%; /* Largeur de l'image */
+    max-width: 400px; /* Largeur maximale de l'image */
+ }
